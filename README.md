@@ -1,2 +1,6 @@
 # VHDL-code-for-Elevator
 
+The elevator controller is a device used to control the motion of the elevator, to indicate the direction of the elevator and the present level of the elevator etc. The device works by accepting the floor level as input and generate control signals as output. The elevator concept is based on finite state machine technology. According to the FSM Technology the elevator process can be defined with the help of different states. In the FSM technology there is a change from one state to another state likewise in the elevator there will be a change from one floor to another. 
+
+Every possible way is assigned a path and implemented using FSM concept to write the program code for elevator controller. The whole program is designed in a such a way that there are desirable switches in each floor and inside the elevator to control the user commands while the elevator is in the ground level in order to go in upward direction we need upward switch and nothing else. The same and opposite for the top floor. But in between the floors we have multiple buttons to go up and down. The elevator will be moving according to the input given by the user while he may be inside or outside the elevator. The design includes a simple and fast elevator logic without needing for extra components.
+
